@@ -1,0 +1,83 @@
+.womens {
+    padding-bottom: 110px;
+    &__title {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #22262A;
+    }
+
+    &__subtitle {
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        color: #22262A;
+    }
+
+    &__items {
+        margin-top: 65px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        margin-bottom: 30px;
+        margin-right: 15px;
+    }
+}
+.item-womens {
+
+    &__imgwrap {
+        margin-bottom: 35px;
+        overflow: hidden;
+    }
+
+    &__img {
+        cursor: pointer;
+        img {
+            max-width: 100%;
+            height: auto;
+            transition: all 0.3s;
+            &:hover {
+                transform: scale(1.01);
+            }
+        }
+    }
+
+    &__brand {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 22px;
+        color: #22262A;
+    }
+
+    &__name {
+        margin-top: 5px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        color: #22262A;
+    }
+
+    &__prices {
+        margin-top: 3px;
+        display: flex;
+    }
+
+    &__oldprice {
+        margin-right: 30px;
+        font-size: 15px;
+        line-height: 22px;
+        color: #22262A;
+        text-decoration: line-through;
+    }
+
+    &__price {
+        font-size: 15px;
+        line-height: 22px;
+        color: #d6450c;
+    }
+}

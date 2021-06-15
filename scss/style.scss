@@ -1,0 +1,21 @@
+@import "variables";
+@import "mixins";
+@import "reset";
+@import "header";
+@import "promo";
+@import "category";
+@import "womens";
+@import "mens";
+@import "avone";
+@import "tachen";
+@import "footer";
+@import "copyright";
+@import "media";
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container  {
+    max-width: 1140px;
+    margin: 0 auto;
+}

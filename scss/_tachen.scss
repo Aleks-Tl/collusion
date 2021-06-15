@@ -1,0 +1,29 @@
+.tachen {
+    background: url('../img/tachen_bg.jpg') center center / cover no-repeat;
+    min-height: 745px;
+    padding-top: 430px;
+
+    &__day {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #22262A;
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 120px;
+        color: #22262A;
+    }
+
+    &__btn {
+        margin-top: 9px;
+        background: #22262A;
+        padding: 4px 25px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+}
